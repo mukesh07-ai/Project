@@ -1,0 +1,189 @@
+#container {
+    background-color:rgb(80, 80, 80);
+    height: 640px;
+    width: 925px;
+    /* border: 4px solid rgba(1, 0, 82, 0.986); */
+    margin: 10px 170px;
+    
+}
+
+.a1{
+    background-color:rgb(219, 219, 219);
+}
+.a2,
+.a3,
+.a4,
+.a5,
+.a6,
+.a7 {
+    background-color:  rgb(247, 240, 240);
+}
+
+.a1 {
+    height: 635px;
+    width: 280px;
+    /* border: 2px solid rgb(2, 2, 54); */
+    position: relative;
+    margin: 9px 8px;
+    position: absolute;
+    bottom: 10px;
+
+}
+
+.a1 img {
+    height: 200px;
+    width: 180px;
+    margin: 8px 60px;
+}
+
+.a1 p {
+    margin: 2px 9px;
+    text-align: center;
+    text-decoration: underline;
+font-weight: bolder;
+font-size: 30px;
+}
+.a1 li:nth-child(even){
+    /* color: rgb(0, 8, 122); */
+    list-style: none;
+}
+.a1 li:nth-child(odd){
+    /* color: rgb(10, 0, 68); */
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: larger;
+    list-style: square;
+    line-height: 44px;
+}
+.a1 .p1 {
+    font-size: 20px;
+    text-decoration: none;
+    right: 85px;
+    position: relative;
+    
+}
+.a1 .p2 {
+    font-size: 20px;
+    text-decoration: none;
+    right:95px;
+    position: relative;
+}
+.a1 h3{font-size: 25px;
+    text-decoration: underline;   
+    font-weight: bolder; 
+    position: relative;
+left: 40px;
+}
+.a1 .p3 {
+    font-size: 20px;
+    text-decoration: none;
+    right: 80px;
+    position: relative;
+}
+
+/* Career */
+
+.a2 {
+    height: 250px;
+    width: 320px;
+    /* border: 2px solid rgb(0, 77, 87); */
+    display: flex;
+    bottom: 400px;
+    position: absolute;
+    left: 470px;
+    font-size: 19px;
+}
+.a2 p{
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.a2 ul{
+    list-style: square;
+}
+
+/* Technical  */
+.a3 {
+    height: 250px;
+    width: 295px;
+    
+    display: flex;
+    bottom: 400px;
+    position: absolute;
+    left: 800px;
+    font-size: 19px;
+}
+.a3 p{
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.a3 ul{
+    list-style: square;
+}
+/* Academic qualification */
+
+.a4 {
+    height: 220px;
+    width: 625px;
+    display: flex;
+    bottom: 170px;
+    position: absolute;
+    left: 470px;
+    font-size: 19px;
+
+}
+.a4 p{
+    font-size: 25px;
+    text-decoration: underline;   
+    font-weight: bolder; 
+}
+.a4 ul{
+    list-style: square;
+}
+
+
+/* skills */
+.a6 {
+    height: 145px;
+    width: 310px;
+    /* border: 2px solid navy; */
+    display: flex;
+    bottom: 20px;
+    position: absolute;
+    left: 470px;
+    font-size: 17px;
+}
+.a6 ul{
+    list-style:square;
+    position: relative;
+    bottom: 38px;    
+}
+.a6 p{
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+/* Declaration */
+.a7 {
+    height: 145px;
+    width: 305px;
+    /* border: 2px solid navy; */
+    display: flex;
+    bottom: 20px;
+    position: absolute;
+    left: 790px;
+    font-size: 17px;
+}
+.a7 p{
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.a7 ul{
+    list-style:square;
+    position: relative;
+    bottom: 30px;
+    
+}
